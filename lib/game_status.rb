@@ -33,6 +33,6 @@ end
 def full?(board)
   if board.all? {|i| i="X" || i="O"}
     true
-  else
+  if board.any? {|i| i=" "}
   end
 end
