@@ -21,7 +21,14 @@ def won?(board)
      win_index_2 = win_array[1]
      win_index_3 = win_array[2]
   end
-
+  if board[win_index_1] == board[win_index_2] && board[win_index_1] == board[win_index_3]
+          return win_array
+        else
+          return false
+        end
+      end
+    end
+  end
   else
 
   end
