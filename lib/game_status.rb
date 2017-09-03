@@ -15,7 +15,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  if WIN_COMBINATIONS.any? { |win_index| board[index]  }
+  if WIN_COMBINATIONS.any? { |win_index| board }
 
   else
 
