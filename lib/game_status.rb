@@ -15,8 +15,8 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
- if WIN_COMBINATIONS[0].select do |i|
-    i == board[index]
+ if WIN_COMBINATIONS[0].select do |win_index|
+    position_taken?(board, win_index)
     true
   end
 
