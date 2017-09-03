@@ -15,5 +15,5 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-WIN_COMBINATIONS.any? { |index| board[index]  }
+WIN_COMBINATIONS.any? { |win_index| board[index]  }
 end
