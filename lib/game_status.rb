@@ -17,9 +17,6 @@ WIN_COMBINATIONS = [
 def won?(board)
  if WIN_COMBINATIONS[0].select do |win_index|
     position_taken?(board, win_index)
-  end
-  if board[win_index_1] == board[win_index_2] && board[win_index_1] == board[win_index_3]
-          return win_array
         else
           return false
     end
