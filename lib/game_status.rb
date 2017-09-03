@@ -15,7 +15,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-WIN_COMBINATIONS.includes? do |win_element|
+WIN_COMBINATIONS.include? do |win_element|
    win_element == board
 end
 end
