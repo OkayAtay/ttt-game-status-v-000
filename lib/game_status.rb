@@ -14,7 +14,7 @@ WIN_COMBINATIONS = [
   [1,4,7]
 ]
 
-def win?(board)
+def won?(board)
 WIN_COMBINATIONS.select do |win_element|
    win_element == board
 end
