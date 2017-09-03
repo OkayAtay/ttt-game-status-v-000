@@ -13,3 +13,7 @@ WIN_COMBINATIONS = [
   [2,5,8],
   [1,4,7]
 ]
+
+def win?(board)
+  
+end
