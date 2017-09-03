@@ -16,8 +16,4 @@ WIN_COMBINATIONS = [
 
 def won?(board)
 WIN_COMBINATIONS.any? { |index| board[index]  }
-
-end
-  board.select do |match|
-  end
 end
