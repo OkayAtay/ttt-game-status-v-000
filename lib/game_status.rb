@@ -15,10 +15,10 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  if WIN_COMBINATIONS.select do |win_index| 
-    win_index == board
-    
-  end 
+  if WIN_COMBINATIONS.select do |i|
+    win_index == board[index]
+
+  end
 
   else
 
