@@ -15,4 +15,6 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
+  board.select do |match|    
+  end
 end
