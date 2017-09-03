@@ -34,5 +34,6 @@ def full?(board)
   if board.any? {|i| i=" "}
     true
   else
+    false
   end
 end
