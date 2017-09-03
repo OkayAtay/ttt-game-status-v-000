@@ -19,3 +19,4 @@ WIN_COMBINATIONS.each do |win_combination|
   win_combination.each do |win_index|
 end
 end
+end
