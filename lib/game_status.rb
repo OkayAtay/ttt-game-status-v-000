@@ -15,6 +15,7 @@ WIN_COMBINATIONS = [
 ]
 
 def win?(board)
-board.select do |win_combo| == WIN_COMBINATIONS
+WIN_COMBINATIONS.select do |win_element|
+   win_element == board
 end
 end
