@@ -25,12 +25,6 @@ def won?(board)
           return win_array
         else
           return false
-        end
-      end
     end
   end
-  else
-
-  end
-
 end
