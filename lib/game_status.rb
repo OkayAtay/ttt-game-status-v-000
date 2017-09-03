@@ -15,7 +15,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  if WIN_COMBINATIONS.select? { |win_index| board }
+  if WIN_COMBINATIONS.select { |win_index| board }
 
   else
 
