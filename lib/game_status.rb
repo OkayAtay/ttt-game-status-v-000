@@ -18,6 +18,6 @@ def won?(board)
 WIN_COMBINATIONS.include? do |win_array|
   win_array.include? do |win_element|
    win_element == board
+    end
   end
-end
 end
