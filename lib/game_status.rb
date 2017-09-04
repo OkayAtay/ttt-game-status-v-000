@@ -43,10 +43,7 @@ def over?(board)
 end
 
 def winner(board)
-  if win_array.select {|i| i=="X"}
-  if win_array.select {|i| i=="O"}
-  else
-    "nil"
-  end
+  if winning_combo = won?(board)
+    board[winning_combo.first]
   end
 end
