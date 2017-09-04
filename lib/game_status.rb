@@ -43,4 +43,9 @@ def over?(board)
 end
 
 def winner?(board)
+  if condition
+
+  else
+    "nil"
+  end
 end
