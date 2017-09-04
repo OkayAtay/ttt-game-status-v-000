@@ -42,9 +42,9 @@ def over?(board)
   won?(board) || draw?(board) || full?(board)
 end
 
-def winner?(board)
-  if condition
-
+def winner(board)
+  if win_array.select {|i| i="X"}
+  if win_array.select {|i| i + "O"}
   else
     "nil"
   end
